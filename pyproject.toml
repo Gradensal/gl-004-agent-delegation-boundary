@@ -1,0 +1,12 @@
+[project]
+name = "gl-004-agent-delegation-boundary"
+version = "0.1.0"
+description = "A deterministic policy experiment for governing persistent AI agents through explicit ACT, ASK, and BLOCK delegation boundaries."
+requires-python = ">=3.12"
+authors = [
+    { name = "Lissette Gorrin Rodriguez" }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
