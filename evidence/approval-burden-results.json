@@ -1,0 +1,28 @@
+{
+  "experiment": "Agent Delegation Approval Burden",
+  "generated_at": "2026-09-30T12:52:01.261746+00:00",
+  "synthetic_workday_actions": 100,
+  "baseline": {
+    "scenario": "ask_everything",
+    "total": 100,
+    "act": 0,
+    "ask": 96,
+    "block": 4,
+    "approval_rate": 96.0,
+    "autonomous_rate": 0.0,
+    "blocked_rate": 4.0
+  },
+  "risk_based": {
+    "scenario": "risk_based",
+    "total": 100,
+    "act": 75,
+    "ask": 21,
+    "block": 4,
+    "approval_rate": 21.0,
+    "autonomous_rate": 75.0,
+    "blocked_rate": 4.0
+  },
+  "approval_requests_avoided": 75,
+  "approval_burden_reduction_percentage_points": 75.0,
+  "important_limitation": "This synthetic experiment measures approval volume only. It does not establish that fewer approvals are inherently safer or better."
+}
