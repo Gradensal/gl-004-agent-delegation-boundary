@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Runtime traces may contain operational detail.
+traces/*.jsonl
+
+# Keep generated runtime scratch files out of Git.
+evidence/runtime-*.jsonl
