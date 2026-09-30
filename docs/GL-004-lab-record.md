@@ -814,6 +814,97 @@ future services or products.
 
 ---
 
+## Public Communication
+
+### Builder
+
+**Lissette Gorrin Rodriguez**
+
+LinkedIn:
+
+https://www.linkedin.com/in/lissettegorrin/
+
+### Personal LinkedIn Launch
+
+**Status:** Published
+
+**Published:** September 30, 2026
+
+**Post:**
+
+https://www.linkedin.com/feed/update/urn:li:activity:7511075867482169344/
+
+**Purpose:**
+
+Introduce the delegation-boundary problem, share the measured GL-004
+experiment result, and connect the technical prototype to the broader question
+of how persistent AI agents should operate under human authority.
+
+**Core result communicated:**
+
+- Ask-Everything: 96 approval requests
+- Risk-Based Delegation: 21 approval requests
+- 75 fewer approval requests in the synthetic workload
+- the same 4 explicitly prohibited actions remained blocked
+
+**Core idea communicated:**
+
+> Human-in-the-loop is not a binary setting. Where the human sits in the loop,
+> and how often the system needs them, becomes part of the design.
+
+**Communication boundary:**
+
+The public post describes approval volume only.
+
+It does not claim that GL-004 measured:
+
+- real human approval fatigue
+- production safety
+- productivity improvement
+- organizational effectiveness
+- regulatory compliance
+
+### Gradensal Company Publication
+
+**Status:** Planned
+
+**Purpose:**
+
+Translate GL-004 from an engineering experiment into an executive-level
+discussion about delegated authority, human oversight, AI governance, and the
+operating model required for increasingly autonomous AI systems.
+
+**Planned business framing:**
+
+Organizations adopting agentic systems will need to define more than whether
+an AI system has access to a tool.
+
+They will also need to determine:
+
+- what the agent may do autonomously
+- what requires human approval
+- what remains outside delegated authority
+- how those decisions are recorded
+- how policies change over time
+- how organizations prevent human approval from becoming either meaningless
+  or unnecessarily burdensome
+
+**Publication URL:**
+
+https://www.linkedin.com/feed/update/urn:li:share:7511081227622330369/?actorCompanyId=143555348
+
+### Additional Planned Content
+
+GL-004 may also support:
+
+- an AI in Motion newsletter edition
+- a short-form technical demo video
+- a personal portfolio case study
+- future Gradensal Reliable Agent Systems content
+- technical discussions about agent governance and delegated authority
+
+---
+
 ## What's Next
 
 Possible extensions include:
