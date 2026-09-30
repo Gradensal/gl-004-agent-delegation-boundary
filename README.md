@@ -63,6 +63,14 @@ It does not attempt to measure human fatigue directly.
 
 ## Architecture
 
+<p align="center">
+  <img
+    src="assets/diagrams/gl-004-architecture.png"
+    alt="GL-004 Agent Delegation Boundary architecture"
+    width="900"
+  />
+</p>
+
 ```text
 Persistent Agent
       |
@@ -123,6 +131,14 @@ Both policies receive the exact same action proposals.
 ---
 
 ## Results
+
+<p align="center">
+  <img
+    src="assets/diagrams/gl-004-approval-burden.png"
+    alt="GL-004 approval burden experiment comparison"
+    width="900"
+  />
+</p>
 
 | Decision | Ask Everything | Risk-Based |
 |---|---:|---:|
