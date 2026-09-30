@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "autonomous_actions": [
+    "read_document",
+    "search_internal_docs",
+    "summarize_internal",
+    "draft_internal_note",
+    "analyze_internal_data"
+  ],
+  "approval_actions": [
+    "send_email",
+    "publish_content",
+    "update_external_system",
+    "schedule_external_meeting",
+    "issue_refund",
+    "modify_record"
+  ],
+  "blocked_actions": [
+    "change_password",
+    "delete_account",
+    "transfer_money",
+    "rotate_credentials"
+  ],
+  "sensitive_data_threshold": 4
+}
