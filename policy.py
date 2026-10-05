@@ -40,7 +40,7 @@ class DelegationPolicyEngine:
     def from_file(
         cls,
         path: str | Path = "policies.json",
-    ) -> "DelegationPolicyEngine":
+    ) -> DelegationPolicyEngine:
         return cls(load_policy(path))
 
     def evaluate(

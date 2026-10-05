@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from ledger import DecisionLedger
@@ -10,7 +10,6 @@ from simulation import (
     build_synthetic_workday,
     run_simulation,
 )
-
 
 TRACE_PATH = Path(
     "traces/delegation-decisions.jsonl"
@@ -63,7 +62,7 @@ def main() -> None:
     result = {
         "experiment": "Agent Delegation Approval Burden",
         "generated_at": datetime.now(
-            timezone.utc
+            UTC
         ).isoformat(),
         "synthetic_workday_actions": len(proposals),
         "baseline": baseline.as_dict(),
